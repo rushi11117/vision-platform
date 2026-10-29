@@ -1,0 +1,21 @@
+# ── Core (required) ──────────────────────────────────────────
+opencv-python==4.5.4.60
+PyYAML>=6.0
+
+# ── Database ─────────────────────────────────────────────────
+# SQLite is built into Python — no extra package needed.
+# For PostgreSQL support (Phase 2):
+# psycopg2-binary>=2.9
+
+# ── Alerts ───────────────────────────────────────────────────
+# Webhook alerts:
+# requests>=2.28
+
+# Email alerts use Python's built-in smtplib — no extra package.
+
+# ── Testing ──────────────────────────────────────────────────
+pytest>=7.0
+pytest-mock>=3.10
+
+# ── Optional: Dashboard ──────────────────────────────────────
+# streamlit>=1.25   (for dashboards/streamlit_dashboard.py)
